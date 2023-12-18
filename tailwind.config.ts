@@ -9,10 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#1B4242",
+        primary: "#2c6e49",
         secondary: "#5C8374",
         tertiary:"#9EC8B9"
       },
+      boxShadow: {
+        '3xl': '0px 0px 100px 10px rgba(0, 0, 0, 0.3)',
+      }
     },
   },
   plugins: [],
